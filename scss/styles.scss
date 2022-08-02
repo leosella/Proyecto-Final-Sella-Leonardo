@@ -4,6 +4,8 @@ $footer: #33d37356;
 $ancho: 50px;
 $alto: 50px;
 
+
+/*Se agrega anidacion y Nesting en Logo de Index*/
 .logo1 {
     width: 140px;
 	
@@ -50,4 +52,10 @@ $alto: 50px;
 		}
 	}
 }
+
+/*Aplicando SASS a pagina COMUNIDAD*/
+/*Se importa el estilo de otra paginascss*/
+
+@import "comunidad";
+
 

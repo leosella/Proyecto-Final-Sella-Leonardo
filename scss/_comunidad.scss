@@ -1,0 +1,25 @@
+/*Se crean variables de colores*/
+
+$turquesa: rgba(127, 255, 212, 0.224);
+$gris: rgba(128, 128, 128, 0.328);
+
+
+/*Se aplica esstilos contactenados*/
+.img-comunidad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: $turquesa; /*Se utilizan variables*/
+	.imagenes-rrss {
+		width: 350px;
+		height: 350px;
+		border-radius: 5px;
+	}
+}
+
+/*Se utilizan variables de colores*/
+.footer {
+    background-color: $gris;
+}
