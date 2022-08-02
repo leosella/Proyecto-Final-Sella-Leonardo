@@ -1,0 +1,38 @@
+/* Definicion de Variables */
+.logo1 {
+  width: 140px; }
+  .logo1:hover {
+    transform: scale(1.1);
+    transition: 1s; }
+
+/*En este caso aplico la variable de colores a las clases .fondo y .footer*/
+.fondo {
+  background-color: #4286f44a; }
+
+.footer {
+  background-color: #33d37356; }
+
+/*Aqui aplico las variables $ancho y $alto en las dimensiones de .icono*/
+.icono, .whatsapp {
+  width: 50px;
+  height: 50px; }
+
+/*Se extiende propiedades de la clase .icono a la clase .whatsapp y se agregan nuevas propiedades*/
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 50px; }
+
+/*Se crea una anidacion de propiedades para las clases que estan dentro de footer*/
+.rrss {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  gap: 50px; }
+  .rrss .li {
+    text-decoration: none;
+    list-style: none; }
+    .rrss .li .a {
+      width: 50px;
+      height: 50px;
+      padding: 30px; }
