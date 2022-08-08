@@ -244,5 +244,13 @@
     "yargs-parser": "^20.2.9",
     "yargs": "^17.5.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosella/sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leosella/sass/issues"
+  },
+  "homepage": "https://github.com/leosella/sass#readme",
   "description": ""
 }

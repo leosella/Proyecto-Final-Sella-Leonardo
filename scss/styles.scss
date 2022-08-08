@@ -1,61 +1,93 @@
+// Aplicar Mapa a mi sitio y luego se utiliza la funcion each para crear clases y asignarles los valores del mapa
+
+$color-map: (
+	fondo: #7af4424a,
+	footer: #33d37356,
+);
+
+@each $key, $value in $color-map {
+	.#{$key}{ background-color: #{$value}; }
+}
+
 /* Definicion de Variables */
-$fondo: #4286f44a;
-$footer: #33d37356;
 $ancho: 50px;
 $alto: 50px;
+
+// Aplicando Mixins al Proyecto
+
+@mixin iconos {
+    width:$ancho;
+	height:$alto;
+}
+
+.icono {
+	@include iconos;
+}
+
+/*Se extiende propiedades de la clase .icono a la clase .whatsapp y se agregan nuevas propiedades*/
+.whatsapp {
+	@include iconos;
+	position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+// APlicando map-get a mi Proyecto
+
+$estilos-h1: (
+	color: #3673D9,
+	text-align: center,
+	font-family: Verdana
+);
+
+h1 {
+	color: map-get($estilos-h1, color);
+	text-align: map-get($estilos-h1, text-align);
+	font-family: map-get($estilos-h1, font-family);
+	padding: 1rem;
+}
+
+
+
 
 
 /*Se agrega anidacion y Nesting en Logo de Index*/
 .logo1 {
     width: 140px;
-	
 		&:hover {
 		transform: scale(1.1);
 		transition: 1s;
 		}
 }
-/*En este caso aplico la variable de colores a las clases .fondo y .footer*/
-.fondo {
-    background-color: $fondo;
-}
 
-.footer {
-	background-color: $footer;
-}
-
-/*Aqui aplico las variables $ancho y $alto en las dimensiones de .icono*/
-.icono {
-	width:$ancho;
-	height:$alto;
-}
-
-/*Se extiende propiedades de la clase .icono a la clase .whatsapp y se agregan nuevas propiedades*/
-.whatsapp {
-	@extend .icono;
-	position: fixed;
-    bottom: 20px;
-    right: 50px;
-}
 /*Se crea una anidacion de propiedades para las clases que estan dentro de footer*/
 .rrss {
     display: flex;
     justify-content: center;
     text-decoration: none;
     gap: 50px;
-	.li {
+	.ul {
 		text-decoration: none;
-		list-style: none;
-		.a {
-			width: $ancho;
-			height: $alto;
-			padding: 30px;
+		.li {
+			text-decoration: none;
+			list-style: none;
+			.a {
+				width: $ancho;
+				height: $alto;
+				padding: 30px;
+			}
 		}
-	}
+	}	
 }
 
 /*Aplicando SASS a pagina COMUNIDAD*/
-/*Se importa el estilo de otra paginascss*/
+/*Se importa el estilo de otra paginas css*/
 
 @import "comunidad";
 
+
+h1 {
+	text-align: center;
+	font-family: Verdana;
+}
 
