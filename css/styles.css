@@ -1,5 +1,5 @@
 .fondo {
-  background-color: #7af4424a; }
+  background-color: #f6ca2bca; }
 
 .footer {
   background-color: #33d37356; }
@@ -21,7 +21,8 @@ h1 {
   color: #3673D9;
   text-align: center;
   font-family: Verdana;
-  padding: 1rem; }
+  padding: 1rem;
+  text-align: center; }
 
 /*Se agrega anidacion y Nesting en Logo de Index*/
 .logo1 {
@@ -56,7 +57,7 @@ h1 {
   gap: 20px;
   justify-content: center;
   margin-bottom: 30px;
-  background-color: rgba(127, 255, 212, 0.224);
+  background-color: rgba(237, 200, 53, 0.516);
   /*Se utilizan variables*/ }
   .img-comunidad .imagenes-rrss {
     width: 350px;
@@ -70,3 +71,7 @@ h1 {
 h1 {
   text-align: center;
   font-family: Verdana; }
+
+/*Se uaplica formato a clase .pie*/
+.pie {
+  text-align: center; }

@@ -1,7 +1,7 @@
 // Aplicar Mapa a mi sitio y luego se utiliza la funcion each para crear clases y asignarles los valores del mapa
 
 $color-map: (
-	fondo: #7af4424a,
+	fondo: #f6ca2bca,
 	footer: #33d37356,
 );
 
@@ -32,7 +32,7 @@ $alto: 50px;
     right: 50px;
 }
 
-// APlicando map-get a mi Proyecto
+// Aplicando map-get a mi Proyecto
 
 $estilos-h1: (
 	color: #3673D9,
@@ -45,11 +45,8 @@ h1 {
 	text-align: map-get($estilos-h1, text-align);
 	font-family: map-get($estilos-h1, font-family);
 	padding: 1rem;
+	text-align: center;
 }
-
-
-
-
 
 /*Se agrega anidacion y Nesting en Logo de Index*/
 .logo1 {
@@ -85,9 +82,12 @@ h1 {
 
 @import "comunidad";
 
-
 h1 {
 	text-align: center;
 	font-family: Verdana;
 }
 
+/*Se uaplica formato a clase .pie*/
+.pie {
+	text-align: center;
+}
