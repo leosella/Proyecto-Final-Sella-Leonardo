@@ -1,10 +1,16 @@
+/* Aplicando Colores al Sitio*/
+/* Aplicar Mapa a mi sitio y luego se utiliza la funcion each para crear clases y asignarles los valores del mapa*/
 .fondo {
   background-color: #f6ca2bca; }
 
 .footer {
   background-color: #33d37356; }
 
+.card {
+  background-color: rgba(243, 236, 236, 0.991); }
+
 /* Definicion de Variables */
+/* Aplicando Mixins al Proyecto*/
 .icono {
   width: 50px;
   height: 50px; }
@@ -15,8 +21,9 @@
   height: 50px;
   position: fixed;
   bottom: 20px;
-  right: 50px; }
+  right: 20px; }
 
+/* Aplicando map-get a mi Proyecto*/
 h1 {
   color: #3673D9;
   text-align: center;
@@ -35,13 +42,11 @@ h1 {
 .rrss {
   display: flex;
   justify-content: center;
-  text-decoration: none;
   gap: 50px; }
   .rrss .ul {
     text-decoration: none; }
     .rrss .ul .li {
-      text-decoration: none;
-      list-style: none; }
+      text-decoration: none; }
       .rrss .ul .li .a {
         width: 50px;
         height: 50px;
@@ -56,9 +61,7 @@ h1 {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-bottom: 30px;
-  background-color: rgba(237, 200, 53, 0.516);
-  /*Se utilizan variables*/ }
+  margin-bottom: 30px; }
   .img-comunidad .imagenes-rrss {
     width: 350px;
     height: 350px;
@@ -68,10 +71,31 @@ h1 {
 .footer {
   background-color: rgba(128, 128, 128, 0.328); }
 
+/*Aplicando Estilo a h1*/
 h1 {
   text-align: center;
   font-family: Verdana; }
 
-/*Se uaplica formato a clase .pie*/
+.card-body {
+  text-align: center;
+  font-family: Verdana;
+  justify-content: center;
+  align-items: center; }
+
+/*Se aplica formato a clase .pie*/
 .pie {
-  text-align: center; }
+  text-align: center;
+  font-family: Verdana; }
+
+/*Aplicando firmato a los mapas del sitio contacto*/
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+  .map-container .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }

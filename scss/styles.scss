@@ -1,8 +1,10 @@
-// Aplicar Mapa a mi sitio y luego se utiliza la funcion each para crear clases y asignarles los valores del mapa
+/* Aplicando Colores al Sitio*/
+/* Aplicar Mapa a mi sitio y luego se utiliza la funcion each para crear clases y asignarles los valores del mapa*/
 
 $color-map: (
 	fondo: #f6ca2bca,
 	footer: #33d37356,
+	card: rgba(243, 236, 236, 0.991),
 );
 
 @each $key, $value in $color-map {
@@ -13,8 +15,7 @@ $color-map: (
 $ancho: 50px;
 $alto: 50px;
 
-// Aplicando Mixins al Proyecto
-
+/* Aplicando Mixins al Proyecto*/
 @mixin iconos {
     width:$ancho;
 	height:$alto;
@@ -29,10 +30,10 @@ $alto: 50px;
 	@include iconos;
 	position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 20px;
 }
 
-// Aplicando map-get a mi Proyecto
+/* Aplicando map-get a mi Proyecto*/
 
 $estilos-h1: (
 	color: #3673D9,
@@ -61,13 +62,11 @@ h1 {
 .rrss {
     display: flex;
     justify-content: center;
-    text-decoration: none;
     gap: 50px;
 	.ul {
 		text-decoration: none;
 		.li {
 			text-decoration: none;
-			list-style: none;
 			.a {
 				width: $ancho;
 				height: $alto;
@@ -82,12 +81,37 @@ h1 {
 
 @import "comunidad";
 
+
+/*Aplicando Estilo a h1*/
 h1 {
 	text-align: center;
 	font-family: Verdana;
 }
 
-/*Se uaplica formato a clase .pie*/
+.card-body {
+	text-align: center;
+	font-family: Verdana;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Se aplica formato a clase .pie*/
 .pie {
 	text-align: center;
+	font-family: Verdana;
+}
+
+/*Aplicando firmato a los mapas del sitio contacto*/
+.map-container{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+		.map-container iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
 }
