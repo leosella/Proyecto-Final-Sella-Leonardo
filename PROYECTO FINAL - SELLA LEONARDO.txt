@@ -1,0 +1,49 @@
+PROYECTO FINAL - Sella Leonardo
+
+
+RESUMEN DEL PROYECTO: 
+
+Inicié este curso para conocer algunos conceptos de programación y así poder ingresar a un mundo nuevo que me generaba mucha curiosidad y un desafío grande. Vengo de la carrera Ingeniería Industrial (ya recibido) y desde hace un tiempo quería introducirme en el Mundo de la Programación, por Hobbie, por abrir puertas en mi carrera y crecer como persona ya que siempre se conocen gente excelente en este tipo de eventos. 
+
+Actualmente trabajo en relación de dependencia, pero también comercializo productos por medio de la plataforma de Mercado Libre. Por ese motivo surgió la posibilidad de crear un sitio para poder publicar los productos con una plataforma diferente. 
+
+Inicié el proyecto con conceptos muy básicos, poca estructura y con un detalle muy básico. Con el avance de las clases comenzó a crecer y a tomar forma.
+Si bien hoy comprendo que hay muchas cosas por mejorar, pulir, experimentar, es un buen punto de partida.
+
+Con el avance del curso, le fui aplicando Box Modeling, Grids, distinto tipo de animaciones, y finalmente quedó en gran parte desarrollado con Bootstrap 5.2, por lo que podrá observar tanto en HTML y CSS todos los detalles. 
+
+El sitio es 100% Diseño Web Adaptable o Responsive, por lo que puede ser utilizado en computadoras grandes, medianas o pequeñas, como así también en tableta y celulares. 
+
+Podrá observar que el Proyecto utiliza SASS, compilado a CSS. Se utilizaron diferentes conceptos vistos en clase como por ejemplo: operaciones, nesting o animaciones, import, variables, operaciones y condicionales. 
+
+El proyecto se encuentra cargado en el Hosting gratuito (ttps://ar.000webhost.com) y se utilizó la App FileZilla para poder cargar el mismo. 
+
+En todas sus páginas cuenta con meta "keywords" y meta "descriptions" para hacer más eficiente el SEO de la misma.
+
+Aplicaciones Utilizadas
+Se utilizó para el desarrollo del proyecto VISUAL STUDIO CODE. 
+
+Espero que el proyecto sea de su agrado.
+
+Estoy con muchas granas de seguir creciendo y desarrollándome en esta nueva profesión. 
+
+NOTA: 
+Entre los días 28/8 y 9/9 estaré de vacaciones, por si hay que hacer correcciones sobre el trabajo no podré realizarlas en ese periodo de tiempo. 
+
+Muchas gracias por sus clases tan dinámicas, ricas en conocimiento y enriquecedoras, espero podamos encontrarnos en otra comisión. 
+
+Saludos, 
+
+Leonardo.
+
+DATOS DEL ALUMNO
+ALUMNO: SELLA LEONARDO
+DNI: 30.847.231
+EDAD: 37
+LOCALIDAD: CÓRDOBA CAPITAL - ARGENTINA
+PROFESIÓN:ING. INDUSTRIAL
+
+DATOS DE CONTACTO
+TELÉFONO: 3525-542450
+MAIL: ing.sella@gmail.com
+LINKEDIN: https://www.linkedin.com/in/mba-ing-leonardo-sella-29623649/
